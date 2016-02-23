@@ -12,7 +12,8 @@ body{
        background-color: white; 
        width: 1000px;
        height: 1111px;
-       font-family: Arial;  
+       font-family: Arial;
+       box-shadow: 0 0 10px rgba(0,0,0,0.5); 
        }
 
 .header{
@@ -33,23 +34,32 @@ body{
       text-decoration: none;
       color: white;
       padding: 15px 45px;
+      margin: 0 1px;
       font-size: 20px;
 }
 
 .menu1:hover{
       background-color: black;
+      border-right: 1px solid white;
+      border-left: 1px solid white;
       }
 
 .menu2:hover{
        background-color: black;
+       border-right: 1px solid white;
+      border-left: 1px solid white;
       }
 
 .menu3:hover{
        background-color: black;
+       border-right: 1px solid white;
+      border-left: 1px solid white;
       }
 
 .menu4:hover{
-      background-color: black; 
+      background-color: black;
+      border-right: 1px solid white;
+      border-left: 1px solid white; 
        }     
 
 .clearfix:after{
@@ -140,6 +150,10 @@ p{
 
 }
 
+.footer a:hover{
+         color: white;
+         text-decoration: underline;
+}
 
 
 
